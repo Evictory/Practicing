@@ -21,5 +21,6 @@ class NegociationController {
           parseFloat(this._inputValue.value));
 
       console.log(negotiation);
+      //verify
   }
 }
