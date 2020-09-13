@@ -8,7 +8,7 @@ let objWithArray = {
     'mais difícil',
     [
       'mais ainda',
-      'hehe'
+      'HMM'
     ],
     'não sei'
   ],
@@ -17,7 +17,7 @@ let objWithArray = {
     newArray: ['quem sabe 1', {
       objProperty2: {
         newNAMEDOIS: 'PFPFPFPF',
-        newArray2: ['DOIS', 'DOIDODISO']
+        newArray2: ['DOIS', 'OUTRO TESTE']
       }
     } ,'quem sabe 2']
   }
@@ -83,5 +83,4 @@ arraydiv.innerHTML = `<ul>${
     return "<li>" + objWithArray[key] + "</li>"           
   }).join("")
       
-
 }<ul>`
